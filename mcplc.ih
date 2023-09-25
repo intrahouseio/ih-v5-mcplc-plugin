@@ -1,0 +1,6 @@
+{
+    "id":"mcplc",
+    "description":"Mitsubishi PLC",
+    "cross":true,
+    "version":"5.0.0"
+}

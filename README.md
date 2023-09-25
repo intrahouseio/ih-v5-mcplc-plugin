@@ -1,4 +1,4 @@
-# Plugin-S7plc
-Plugin allows communication to S7-300/400/1200/1500 PLCs using the Siemens S7 Ethernet protocol RFC1006.
-Use a library nodeS7: https://github.com/plcpeople/nodeS7
+# Plugin-MCplc
+Plugin allows communication to Mitsubishi PLCs FX3U using the MC (MELSEC Communication) Ethernet protocol as documented by Mitsubishi.
+Use a library mcprotocol: https://github.com/plcpeople/mcprotocol
 

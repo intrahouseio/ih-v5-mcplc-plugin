@@ -21,7 +21,7 @@
       "prop": "port",
       "title": "$port",
       "type": "input",
-      "default": "102"
+      "default": "5001"
     },
     {
       "prop": "ascii",

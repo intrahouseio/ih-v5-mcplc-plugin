@@ -35,6 +35,10 @@ let channels = {};
 
     sendNext();
   } catch (err) {
+    Object.keys(channels).forEach(item => {
+      charr.push({ id: channels[item], chstatus: 1 });
+    })
+    plugin.sendData(charr);
     plugin.exit(8, util.inspect(err));
   }
 })();
